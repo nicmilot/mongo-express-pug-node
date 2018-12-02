@@ -2,12 +2,12 @@ var config = {};
 
 
 config.port = process.env.WEB_PORT || 3000;
-config.dbuser = "dbusername";
-config.dbpassword = "dbpasswordOfTheUser";
-config.dbaddress =  "bc5555.mlab.com:1234/test-project"
-config.dbhost = 'mongodb://' + config.dbuser + ':' + config.dbpassword + '@' + config.dbaddress ;
-config.title = "BoilerPlate";
-config.slogan = "Entrez un catchphrase sur votre entreprise!";
+config.dbuser = "station";
+config.dbpassword = "station900";
+config.dbaddress = "ds151108.mlab.com:51108/station";
+config.dbhost = 'mongodb://' + config.dbuser + ':' + config.dbpassword + '@' + config.dbaddress;
+config.title = "RG Station 900";
+config.slogan = "Espace Coworking App";
 
 
 module.exports = config;
